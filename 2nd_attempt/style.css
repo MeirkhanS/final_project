@@ -1,0 +1,350 @@
+body {
+  width: 1600px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  height: 675px;
+}
+
+.header {
+  height: 100px;
+}
+
+.logo {
+  margin-left: 90px;
+  font-family: 'Montez', cursive;
+  font-size: 40px;
+  line-height: 95px;
+  color: #CBA135;
+  text-decoration: none;
+}
+
+.search {
+  position: absolute;
+  width: 396px;
+  height: 38px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  border: none;
+  margin-top: 27px;
+  margin-left: 145px;
+}
+
+::placeholder {
+  width: 54px;
+  height: 22px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 17.5px;
+  line-height: 22px;
+  padding-left: 19px;
+}
+
+.loupe {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 509px;
+}
+
+.loupe img {
+  width: 15px;
+}
+
+.navbar {
+  display: inline-block;
+  position: absolute;
+  margin-top: 39px;
+  margin-left: 668px;
+}
+
+.navbar a {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid white;
+}
+
+.signup {
+  position: absolute;
+  width: 85px;
+  height: 30px;
+  left: 1360px;
+  margin-top: 35px;
+  border: none;
+  background: #CBA135;
+  border-radius: 15px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.signup:hover {
+  background-color: white;
+  color: black;
+}
+
+.login {
+  position: absolute;
+  width: 85px;
+  height: 30px;
+  left: 1465px;
+  margin-top: 35px;
+  border: none;
+  background: #CBA135;
+  border-radius: 15px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.login:hover {
+  background-color: white;
+  color: black;
+}
+
+.main_content {
+  width: 950px;
+  height: 252px;
+  margin-left: 325px;
+  margin-top: 175px;
+  text-align: center;
+}
+
+.main_content h1 {
+  font-size: 60px;
+  font-family: 'Arvo', serif;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+.main_content small {
+  width: 472px;
+  height: 47px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 47px;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.main_button {
+  width: 266px;
+  height: 60px;
+  opacity: 1;
+  background: none;
+  margin-top: 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.main_button a {
+  color: inherit;
+}
+
+.main_button:hover {
+  background-color: #CBA135;
+  border: none;
+  color: black;
+}
+
+.main_button a:hover {
+  color: black;
+}
+
+.welcome {
+  height: 744px;
+  background-color: white;
+}
+
+.welcome_heading h2 {
+  margin-top: 0;
+  padding-top: 69px;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.welcome_heading small {
+  width: 400px;
+  height: 25px;
+  padding-top: 69px;
+  margin-top: 0;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-left: 619px;
+  color: #929292;
+}
+
+.welcome_text {
+  width: 600px;
+  height: 500px;
+  margin-left: 106px;
+  position: absolute;
+  display: inline-block;
+}
+
+.welcome_images {
+  width: 675px;
+  height: 500px;
+  margin-left: 825px;
+  margin-top: 68px;
+}
+
+.welcome_images img {
+  position: absolute;
+  display: inline-block;
+}
+
+.food_menu {
+  width: 1400px;
+  height: 700px;
+  border-radius: 75px;
+  margin-left: 100px;
+  margin-top: 53px;
+}
+
+.food_menu h2 {
+  position: absolute;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  margin: 0;
+  margin-left: 623px;
+  padding-top: 46px;
+  color: #CBA135;
+}
+
+.food_menu_images {
+  width: 1157px;
+  height: 480px;
+}
+
+.food_menu_images a img {
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 120px;
+}
+
+.food_menu_images a img:hover {
+  opacity: 75%;
+}
+
+.food_menu_images a span {
+  color: white;
+  position: absolute;
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact_us {
+  height: 650px;
+}
+.contact_us_heading {
+  text-align: center;
+}
+.contact_us_heading h2 {
+width: 334px;
+height: 74px;
+margin: 0 auto;
+padding-top: 92px;
+font-family: 'Arvo', serif;
+font-weight: bold;
+font-size: 60px;
+text-align: center;
+color: #000000;
+}
+.contact_us_heading small {
+width: 534px;
+height: 31px;
+font-family: 'Arvo', serif;
+font-size: 20px;
+margin: 0;
+font-weight: 400;
+line-height: 50px;
+text-align: center;
+letter-spacing: 5px;
+
+color: #929292;
+}
+
+.footer {
+  height: 100px;
+}
+
+.contact_us_content {
+  width: 1374px;
+  height: 250px;
+  margin-left: 113px;
+  margin-top: 92px;
+}
+.contact_us_content a {
+  color: black;
+}
+
+.contact_us_boxes {
+  position: absolute;
+  width: 400px;
+height: 250px;
+  display: inline-block;
+background: #FFFFFF;
+border: 2px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 25px;
+font-family: 'Roboto', sans-serif;
+}
+.contact_us_boxes img {
+  margin-left: 172px;
+  margin-top: 32px;
+}
+.contact_us_boxes p {
+  text-align: center;
+  margin-top: 65px;
+  line-height: 25px;
+}
+
+.contact_us_boxes:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.footer_mutfak {
+position: absolute;
+font-family: 'Montez', cursive;
+font-size: 70px;
+line-height: 92px;
+margin-left: 715px;
+color: #CBA135;
+}
+.footer a img {
+  position: absolute;
+  width: 30px;
+}
