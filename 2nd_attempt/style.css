@@ -198,11 +198,18 @@ a {
 }
 
 .welcome_text {
-  width: 600px;
+  width: 400px;
   height: 500px;
-  margin-left: 106px;
+  margin-left: 150px;
+  margin-top: 125px;
   position: absolute;
   display: inline-block;
+  
+}
+.welcome_text p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Spartan', sans-serif;
 }
 
 .welcome_images {
